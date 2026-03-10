@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="x-apple-disable-message-reformatting" />
+    <title>Payment Receipt</title>
+    <!--[if mso]>
+      <style type="text/css">
+        table {
+          border-collapse: collapse;
+        }
+        .outlook-font-fix {
+          font-family: Arial, sans-serif;
+        }
+      </style>
+    <![endif]-->
+    <style type="text/css">
+      /* Reset styles */
+      body,
+      table,
+      td,
+      a {
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+      }
+      table,
+      td {
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+      }
+      img {
+        -ms-interpolation-mode: bicubic;
+        border: 0;
+        height: auto;
+        line-height: 100%;
+        outline: none;
+        text-decoration: none;
+      }
+      body {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+      }
+
+      /* Base styles */
+      body {
+        background-color: #f6f6f6;
+        font-family: Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      /* Container */
+      .email-container {
+        max-width: 698px;
+        margin: 0 auto;
+      }
+
+      /* Content card */
+      .content-card {
+        background-color: #f4f3f3;
+        border-radius: 44px;
+        padding: 50px 64px;
+      }
+
+      /* Typography */
+      .heading {
+        font-family: Arial, sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1em;
+        letter-spacing: -0.72px;
+        color: #1a1a1a;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+
+      .body-text {
+        font-family: Arial, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.3em;
+        letter-spacing: -0.16px;
+        color: #1a1a1a;
+        text-align: center;
+        margin: 0 0 32px 0;
+        padding: 0;
+      }
+
+      /* Package info box */
+      .package-box {
+        background-color: #d9d9d9;
+        border-radius: 16px;
+        padding: 12px;
+        margin-bottom: 32px;
+      }
+
+      .package-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .package-label {
+        font-family: Inter, Arial, sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.21em;
+        letter-spacing: -0.72px;
+        color: #1a1a1a;
+        margin: 0;
+      }
+
+      .package-price {
+        font-family: Inter, Arial, sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.21em;
+        letter-spacing: -0.72px;
+        color: #1a1a1a;
+        text-align: right;
+        margin: 0;
+      }
+
+      .package-details {
+        font-family: Inter, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.21em;
+        letter-spacing: -0.48px;
+        color: #1a1a1a;
+        text-align: left;
+        margin: 10px 0 0 0;
+        padding: 0 32px 0 0;
+      }
+
+      /* Footer */
+      .footer-text {
+        font-family: Arial, sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.33em;
+        color: #999999;
+        text-align: center;
+        margin: 32px 0 0 0;
+        padding: 0;
+      }
+
+      /* Spacing */
+      .spacer-32 {
+        height: 32px;
+        line-height: 32px;
+        font-size: 32px;
+      }
+
+      /* Mobile responsive */
+      @media only screen and (max-width: 600px) {
+        .email-container {
+          width: 100% !important;
+        }
+        .content-card {
+          padding: 30px 24px !important;
+          border-radius: 24px !important;
+        }
+        .heading {
+          font-size: 20px !important;
+        }
+        .body-text {
+          font-size: 14px !important;
+        }
+        .package-label,
+        .package-price {
+          font-size: 16px !important;
+        }
+        .package-details {
+          font-size: 11px !important;
+        }
+      }
+    </style>
+  </head>
+  <body style="margin: 0; padding: 0; background-color: #ffffff">
+    <!-- Preheader text -->
+    <div style="display: none; max-height: 0; overflow: hidden; mso-hide: all">Thank you for your purchase. Your payment receipt is attached.</div>
+
+    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+      <tr>
+        <td style="padding: 32px 20px">
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" class="email-container" align="center" style="max-width: 698px; width: 100%">
+            <!-- Logo -->
+            <tr>
+              <td style="text-align: center; padding-bottom: 32px">
+                <img src="{{BASE_URL}}/templates/dark-logo.png" alt="Memories" width="396" height="84" style="display: inline-block; max-width: 132px; width: 100%; height: auto" />
+              </td>
+            </tr>
+
+            <!-- Main Content Card -->
+            <tr>
+              <td class="content-card" style="background-color: #f4f3f3; border-radius: 44px; padding: 50px 64px">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <!-- Heading -->
+                  <tr>
+                    <td>
+                      <h1
+                        class="heading outlook-font-fix"
+                        style="
+                          font-family: Arial, sans-serif;
+                          font-weight: 700;
+                          font-size: 24px;
+                          line-height: 1em;
+                          letter-spacing: -0.72px;
+                          color: #1a1a1a;
+                          text-align: center;
+                          padding: 0;
+                        "
+                      >
+                        Thank you for your purchase.
+                      </h1>
+                    </td>
+                  </tr>
+
+                  <!-- Order Details -->
+                  <tr>
+                    <td>
+                      <p
+                        class="body-text outlook-font-fix"
+                        style="
+                          font-family: Arial, sans-serif;
+                          font-weight: 400;
+                          font-size: 16px;
+                          line-height: 1.3em;
+                          letter-spacing: -0.16px;
+                          color: #1a1a1a;
+                          text-align: center;
+                          margin: 32px 0 32px 0;
+                        "
+                      >
+                        Order: {{order}}<br />
+                        Amount: {{amount}}<br />
+                        Credits added: {{credits}}<br />
+                        Payment method: {{method}}
+                      </p>
+                    </td>
+                  </tr>
+
+                  <!-- Package Info Box -->
+                  <tr>
+                    <td class="package-box" style="background-color: {{palette.background}}; border-radius: 16px; padding: 12px">
+                      <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <tr>
+                          <td>
+                            <p
+                              class="package-label outlook-font-fix"
+                              style="
+                                font-family: Inter, Arial, sans-serif;
+                                font-weight: 700;
+                                font-size: 18px;
+                                line-height: 1.21em;
+                                letter-spacing: -0.72px;
+                                color: {{palette.foreground}};
+                                margin: 0;
+                                float: left;
+                              "
+                            >
+                              {{name}}
+                            </p>
+                            <p
+                              class="package-price outlook-font-fix"
+                              style="
+                                font-family: Inter, Arial, sans-serif;
+                                font-weight: 700;
+                                font-size: 18px;
+                                line-height: 1.21em;
+                                letter-spacing: -0.72px;
+                                color: {{palette.foreground}};
+                                text-align: right;
+                                margin: 0;
+                                float: right;
+                              "
+                            >
+                              ${{amount}}
+                            </p>
+                            <div style="clear: both"></div>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            <p
+                              class="package-details outlook-font-fix"
+                              style="
+                                font-family: Inter, Arial, sans-serif;
+                                font-weight: 400;
+                                font-size: 12px;
+                                line-height: 1.21em;
+                                letter-spacing: -0.004em;
+                                color: {{palette.foreground}};
+                                text-align: left;
+                                margin: 10px 0 0 0;
+                                padding: 0 32px 0 0;
+                              "
+                            >
+                              {{#each features}}
+                              <span style="display: flex;">
+                                <span style="width: 0.3125em; height: 0.3125em; background: currentColor; border-radius: 2em; margin: 0.3125rem;"></span>
+                                <span>{{this}}</span>
+                              </span>
+                              {{/each}}
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+
+                  <!-- Purchase History Link -->
+                  <tr>
+                    <td>
+                      <p
+                        class="body-text outlook-font-fix"
+                        style="
+                          font-family: Arial, sans-serif;
+                          font-weight: 400;
+                          font-size: 16px;
+                          line-height: 1.3em;
+                          letter-spacing: -0.16px;
+                          color: #1a1a1a;
+                          text-align: center;
+                          margin: 32px 0 0;
+                          padding: 0;
+                        "
+                      >
+                        You can view this purchase anytime in Purchase History.
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Footer -->
+            <tr>
+              <td>
+                <p
+                  class="footer-text outlook-font-fix"
+                  style="font-family: Arial, sans-serif; font-weight: 400; font-size: 12px; line-height: 1.33em; color: #999999; text-align: center; margin: 32px 0 0 0; padding: 0"
+                >
+                  © {{year}} Memories. All rights reserved.
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
